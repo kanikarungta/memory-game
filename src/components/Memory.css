@@ -1,0 +1,19 @@
+.card-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 400px;
+  height: 400px;
+  border: 2px solid black;
+
+  padding: 5px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.background-black {
+  background-color: black;
+}
